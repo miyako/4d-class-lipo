@@ -7,4 +7,4 @@ Classes to split universal binary app with the lipo program
 
 # Remarks
 
-The [LSRequiresNativeExecution](https://developer.apple.com/documentation/bundleresources/information_property_list/lsrequiresnativeexecution) is not added to *Info.plist*.
+The [LSRequiresNativeExecution](https://developer.apple.com/documentation/bundleresources/information_property_list/lsrequiresnativeexecution) key is not added to *Info.plist*.
