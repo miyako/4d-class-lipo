@@ -14,6 +14,9 @@ Classes to split universal binary app with the lipo program
 |source|original size|x86_64|arm64|
 |:-:|:-:|:-:|:-:|
 |4D 20 R3|965.1 MB|881.6 MB|661.8 MB|
+|4D 19.7|1.07 GB|779.8 MB|661.8 MB|
+
+**Note**: 4D 19 contains 4D Mobile.
 
 # Remarks
 
