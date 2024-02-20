@@ -4,3 +4,7 @@
 ![downloads](https://img.shields.io/github/downloads/miyako/4d-class-lipo/total)
 
 Classes to split universal binary app with the lipo program
+
+# Remarks
+
+The [LSRequiresNativeExecution](https://developer.apple.com/documentation/bundleresources/information_property_list/lsrequiresnativeexecution) is not added to *Info.plist*.
