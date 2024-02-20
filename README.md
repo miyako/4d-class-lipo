@@ -3,7 +3,7 @@
 [![license](https://img.shields.io/github/license/miyako/4d-class-lipo)](LICENSE)
 ![downloads](https://img.shields.io/github/downloads/miyako/4d-class-lipo/total)
 
-Classes to split universal binary app with the lipo program
+Classes to split universal binary app with the lipo program.
 
  # About
 
