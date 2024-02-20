@@ -75,18 +75,6 @@
 					"sizingY": "move",
 					"sizingX": "grow"
 				},
-				"パス:": {
-					"type": "text",
-					"text": "パス:",
-					"top": 218,
-					"left": 183,
-					"width": 63,
-					"height": 16,
-					"textAlign": "right",
-					"fontWeight": "bold",
-					"sizingY": "move",
-					"sizingX": "fixed"
-				},
 				"Stop": {
 					"type": "button",
 					"text": "Stop",
@@ -130,16 +118,6 @@
 					"sizingX": "grow",
 					"sizingY": "grow"
 				},
-				"標準出力:": {
-					"type": "text",
-					"text": "標準出力:",
-					"top": 38,
-					"left": 163,
-					"width": 83,
-					"height": 16,
-					"textAlign": "right",
-					"fontWeight": "bold"
-				},
 				"Form.stdErr": {
 					"type": "input",
 					"left": 258,
@@ -153,9 +131,31 @@
 					"sizingY": "move",
 					"sizingX": "grow"
 				},
-				"標準エラー:": {
+				"path:": {
 					"type": "text",
-					"text": "標準エラー:",
+					"text": "path:",
+					"top": 218,
+					"left": 183,
+					"width": 63,
+					"height": 16,
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"sizingY": "move",
+					"sizingX": "fixed"
+				},
+				"stdOut:": {
+					"type": "text",
+					"text": "stdOut:",
+					"top": 38,
+					"left": 163,
+					"width": 83,
+					"height": 16,
+					"textAlign": "right",
+					"fontWeight": "bold"
+				},
+				"stdErr:": {
+					"type": "text",
+					"text": "stdErr:",
 					"top": 128,
 					"left": 163,
 					"width": 83,
@@ -169,7 +169,7 @@
 		}
 	],
 	"method": "method.4dm",
-	"geometryStamp": 679,
+	"geometryStamp": 683,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
