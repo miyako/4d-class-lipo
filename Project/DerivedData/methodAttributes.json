@@ -1,0 +1,13 @@
+{
+	"methods": {
+		"TEST_Worker": {
+			"timeStamp": "2024-02-20T05:32:40Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"TEST_Lipo": {
+			"timeStamp": "2024-02-20T05:04:07Z"
+		}
+	}
+}

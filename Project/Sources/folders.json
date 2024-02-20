@@ -1,0 +1,33 @@
+{
+	"Demo": {
+		"methods": [
+			"TEST_Lipo",
+			"TEST_Worker"
+		],
+		"forms": [
+			"Lipo"
+		]
+	},
+	"Lipo": {
+		"classes": [
+			"_CLI",
+			"_Find",
+			"Lipo"
+		]
+	},
+	"Lipo Controller": {
+		"classes": [
+			"_CLI_Controller",
+			"_Find_Controller",
+			"_Lipo_Controller",
+			"_LipoUI_Controller"
+		]
+	},
+	"View": {
+		"classes": [
+			"_Form",
+			"LipoForm"
+		]
+	},
+	"trash": {}
+}

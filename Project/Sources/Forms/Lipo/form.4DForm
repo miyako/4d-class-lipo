@@ -1,0 +1,182 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 622,
+	"windowMinHeight": 343,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"events": [
+		"onLoad",
+		"onUnload"
+	],
+	"windowTitle": "",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"Static Picture1": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 128,
+					"height": 128,
+					"picture": "/RESOURCES/images/Terminal.png",
+					"pictureFormat": "scaled"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Progress": {
+					"type": "progress",
+					"left": 158,
+					"top": 20,
+					"width": 454,
+					"height": 26,
+					"max": 100,
+					"dataSource": "Form:C1466.progress",
+					"sizingX": "grow"
+				},
+				"Form.sourceIcon": {
+					"type": "input",
+					"left": 10,
+					"top": 154,
+					"width": 100,
+					"height": 100,
+					"dataSource": "Form:C1466.sourceIcon",
+					"contextMenu": "none",
+					"events": [
+						"onDrop"
+					],
+					"dropping": "custom",
+					"dragging": "none",
+					"method": "ObjectMethods/Form.sourceIcon.4dm",
+					"dataSourceTypeHint": "picture",
+					"pictureFormat": "proportionalCenter",
+					"hideFocusRing": true,
+					"borderStyle": "none"
+				},
+				"Path": {
+					"type": "input",
+					"left": 253,
+					"top": 217,
+					"width": 414,
+					"height": 17,
+					"enterable": false,
+					"focusable": false,
+					"dataSource": "Form:C1466.source.path",
+					"contextMenu": "none",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"sizingY": "move",
+					"sizingX": "grow"
+				},
+				"パス:": {
+					"type": "text",
+					"text": "パス:",
+					"top": 218,
+					"left": 183,
+					"width": 63,
+					"height": 16,
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"sizingY": "move",
+					"sizingX": "fixed"
+				},
+				"Stop": {
+					"type": "button",
+					"text": "Stop",
+					"top": 280,
+					"left": 10,
+					"width": 150,
+					"height": 53,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Stop.4dm",
+					"focusable": false,
+					"sizingX": "fixed",
+					"sizingY": "move"
+				},
+				"Thin": {
+					"type": "button",
+					"text": "Thin",
+					"top": 280,
+					"left": 462,
+					"width": 150,
+					"height": 53,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Thin.4dm",
+					"focusable": false,
+					"sizingX": "move",
+					"sizingY": "move"
+				},
+				"Form.stdOut": {
+					"type": "input",
+					"left": 258,
+					"top": 41,
+					"width": 354,
+					"height": 81,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"dataSource": "Form:C1466.stdOut",
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"標準出力:": {
+					"type": "text",
+					"text": "標準出力:",
+					"top": 38,
+					"left": 163,
+					"width": 83,
+					"height": 16,
+					"textAlign": "right",
+					"fontWeight": "bold"
+				},
+				"Form.stdErr": {
+					"type": "input",
+					"left": 258,
+					"top": 131,
+					"width": 354,
+					"height": 81,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"dataSource": "Form:C1466.stdErr",
+					"sizingY": "move",
+					"sizingX": "grow"
+				},
+				"標準エラー:": {
+					"type": "text",
+					"text": "標準エラー:",
+					"top": 128,
+					"left": 163,
+					"width": 83,
+					"height": 16,
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"sizingY": "move",
+					"sizingX": "fixed"
+				}
+			}
+		}
+	],
+	"method": "method.4dm",
+	"geometryStamp": 679,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"width": 622,
+	"height": 343
+}
