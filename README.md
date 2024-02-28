@@ -9,7 +9,7 @@ Classes to split universal binary app with the lipo program.
 
  Executes `lipo -thin` on exectuable files inside an .app to create separate instances for Intel/Mac architecture.
 
-<img src="https://github.com/miyako/4d-class-lipo/assets/1725068/aa8e671c-801a-41b6-b52a-e8dce83b9939" width="450" />
+<img src="https://github.com/miyako/4d-class-lipo/assets/1725068/aa8e671c-801a-41b6-b52a-e8dce83b9939" style="height:360px;width:auto;" />
 
 |source|original size|x86_64|arm64|
 |:-:|:-:|:-:|:-:|
